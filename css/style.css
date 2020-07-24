@@ -38,14 +38,23 @@ body *{
     width: 80%;
     margin: auto;
     overflow: hidden;
+    position: relative;
 }
 
 #header{
+    position: fixed;
+    top: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
     padding: 20px 10%;
+    background-color: #ffffff;
     border-bottom: 2px solid rgb(181, 134, 54); 
+    z-index: 1;
 }
 
 #header-img{
