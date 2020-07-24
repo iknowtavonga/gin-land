@@ -93,7 +93,7 @@ body *{
 }
 
 #company-description{
-    width: 60%;
+    width: 45%;
 }
 
 #company-description h2{
@@ -104,4 +104,66 @@ body *{
 
 .image-size img{
     width: 300px;
+}
+
+/*This section is for the fcc project only*/
+
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.product h2{
+    margin: 20px 0;
+    font-family: 'Black Ops One', cursive;
+    text-transform: uppercase;
+}
+
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    border-top: 1.5px solid rgb(181, 134, 54);
+}
+
+.newsletter form{
+    margin: 20px 0;
+    margin-left: 250px;
+}
+
+.newsletter form label{
+    font-size: 19px;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+#email{
+    -webkit-appearance: none;
+    width: 100%;
+    max-width: 425px;
+    /*Fix for iOS devices for date input heights*/
+    min-height: calc(0.9em + (0.3em * 2) + 0.6em);
+    padding: 0.3em;
+    margin-top: 0.5em;
+    margin-right: 20px;
+    font-size: 0.9em;
+    outline: none;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    background: #f9f9f9;
+}
+
+#submit{
+    
+    text-transform: uppercase;
+    background-color: #ffffff;
+    font-family: 'Black Ops One', cursive;
+    width: 80px;
+    height: 30px;
+    border: 1.5px solid rgb(181, 134, 54);
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
 }
