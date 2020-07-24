@@ -1,31 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lato&display=swap');
 
-@media (max-width: 670px) {
-    #header{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 0.9em;
-    }
-
-    #header-img{
-        width: 50px;
-    }
-
-    #nav-bar ul{
-        margin: 10px auto;
-        
-    }
-
-    .company-details{
-        display: flex;
-        flex-direction: column;
-        font-size: 0.9em;
-        margin: 20px 0;
-    }
-}
-
 body *{
     margin: 0;
     padding: 0;
@@ -115,4 +89,36 @@ body *{
 
 .image-size img{
     width: 300px;
+}
+
+.shipping{
+    min-height: 600px;
+    margin: 20px 0;
+}
+
+@media (max-width: 670px) {
+    #header{
+        font-size: 0.9em;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+/*
+    #header-img{
+        justify-self: center;
+        width: 50px;
+    }
+
+    #nav-bar ul{
+        margin: 10px auto;
+        
+    }
+
+    .company-details{
+        display: flex;
+        flex-direction: column;
+        font-size: 0.9em;
+        margin: 20px 0;
+    }*/
 }
