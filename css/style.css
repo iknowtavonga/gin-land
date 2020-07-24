@@ -104,21 +104,25 @@ body *{
         justify-content: center;
         align-items: center;
     }
-/*
+
     #header-img{
-        justify-self: center;
         width: 50px;
     }
 
     #nav-bar ul{
-        margin: 10px auto;
-        
+        margin: 10px auto;    
     }
 
     .company-details{
         display: flex;
         flex-direction: column;
+        margin-top: 150px
+       /* margin: 20px 0;*/
+    }
+
+    #company-description{
         font-size: 0.9em;
-        margin: 20px 0;
-    }*/
+        width: 100%;
+        padding: 0 0 0.75em 0;
+    }
 }
