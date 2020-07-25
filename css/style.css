@@ -1,31 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lato&display=swap');
 
-@media (max-width: 670px) {
-    #header{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 0.9em;
-    }
-
-    #header-img{
-        width: 50px;
-    }
-
-    #nav-bar ul{
-        margin: 10px auto;
-        
-    }
-
-    .company-details{
-        display: flex;
-        flex-direction: column;
-        font-size: 0.9em;
-        margin: 20px 0;
-    }
-}
-
 body *{
     margin: 0;
     padding: 0;
@@ -98,7 +72,7 @@ body *{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin: 20px 0;
+    margin-top: 120px;
 }
 
 #company-description{
@@ -139,11 +113,10 @@ body *{
 
 .newsletter form{
     margin: 20px 0;
-    margin-left: 250px;
 }
 
-.newsletter form label{
-    font-size: 19px;
+.newsletter form h2{
+    font-family: 'Black Ops One', cursive;
     text-transform: uppercase;
     margin-right: 20px;
 }
@@ -175,4 +148,80 @@ body *{
     border-radius: 4px;
     cursor: pointer;
     outline: none;
+}
+
+@media (max-width: 670px) {
+    #header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 0.9em;
+    }
+
+    #header-img{
+        width: 50px;
+    }
+
+    #nav-bar ul{
+        margin: 10px auto;
+        
+    }
+
+    .company-details{
+        display: flex;
+        flex-direction: column;
+        font-size: 0.9em;
+        margin-top: 150px;
+        /*margin: 20px 0;*/
+    }
+
+    #company-description{
+        font-size: 0.9em;
+        width: 100%;
+        padding: 0 0 0.75em 0;
+    }
+
+    .product{
+        margin: 0 0 10px 0;
+        font-size: 0.9em;
+    }
+
+    .product h2{
+        margin: 0 0 10px 0;
+    }
+
+    .product iframe{
+        width: auto;
+        height: auto;
+    }
+
+    .newsletter{
+        margin: 0;
+        padding: 0;
+        height: 105px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.9em;
+    }
+
+    .newsletter form h2{
+        margin: 0;
+        padding: 0;
+        font-size: 1.2em;
+    }
+
+    .newsletter form input{
+        margin: 5px 0;
+    }
+
+    #email{
+        width: 200px;
+    }
+
+    #submit{
+        align-self: center;
+    }
 }
