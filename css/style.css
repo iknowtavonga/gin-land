@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lato&display=swap');
-
+/*Global Styles*/
 body *{
     margin: 0;
     padding: 0;
@@ -14,6 +14,12 @@ body *{
     margin: auto;
     overflow: hidden;
 }
+
+.image-size img{
+    width: 300px;
+}
+
+/*Header*/
 
 #header{
     position: fixed;
@@ -68,6 +74,8 @@ body *{
     cursor: pointer;
 }
 
+/*Company Details section*/
+
 .company-details{
     margin-top: 120px;
     display: flex;
@@ -87,14 +95,15 @@ body *{
     text-align: center;
 }
 
-.image-size img{
-    width: 300px;
-}
-
 .shipping{
     min-height: 600px;
     margin: 20px 0;
 }
+/*Ingredients Section*/
+
+
+
+/*Media Queries*/
 
 @media (max-width: 670px) {
     #header{

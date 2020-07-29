@@ -20,8 +20,8 @@
         </nav>
         <a href="#"><button>cart</button></a>
     </header>  
-    <main class="container">
-        <section class="company-details">
+    <main>
+        <section class="company-details container">
             <div id="company-description">
                 <h2>BE BOLD. EMBRACE THE GRANDEUR</h2>
                 <p>Granduer Gin is a well balanced mix of botanicals that give you a fruity citrus taste and pungent aroma. Enjoyed by those who aspire for greatness.</p>
@@ -30,12 +30,69 @@
                 <img src="./img/Grandeur.jpeg" alt="Grandeur Premium Gin">
             </div>
         </section>
-        <section class="shipping">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quos voluptas maxime porro laudantium rem, vero eos aliquam quia esse ab expedita sunt voluptatem neque. Illo, adipisci? Minus, dolore amet.</p>
-            <br>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa obcaecati voluptates vel exercitationem cupiditate accusamus nostrum suscipit expedita quasi. Sit excepturi, nobis tempora fugiat minima dicta similique hic nesciunt dolores?</p>
+        <section class="ingredients">
+            <h2>Our ingredients</h2>
+            <div class="ingredients-container">
+                <div class="berries">
+                    <h3>Berries</h3>
+                    <p>Voluptates adipisci cupiditate at, vitae.</p>
+                </div>
+                <div class="water">
+                    <h3>Water</h3>
+                    <p>Vapre nemo aliquam facilis quibusdam est, quasi vel.</p>
+                </div>
+                <div class="ferment">
+                    <h3>Ferment</h3>
+                    <p>Deleniti similique ipsum dolore nihil ducimus ex et aperiam facilis.</p>
+                </div>
+            </div> 
+        </section>
+        <section class="purchase container">
+            <div class="purchase-image image-size">
+                <img src="./img/Grandeur-Bottle.jpeg" alt="Grandeur-Bottle purchase-image">
+            </div>
+            <div class="purchase-form">
+                <form action="#">
+                    <input class="form-input" type="text" id="customer-name" name="customer-name" placeholder="Enter credit card holder name" required>
+                    <input class="form-input" type="number" id="card-number" name="card-number" placeholder="Enter credit card number" required>
+                    <input class="form-input" type="number" id="cvv" name="cvv" maxlength="3" placeholder="CVV" required>
+                    <div>
+                        <label class="form-label" for="expiry">Enter card expiry date:</label>
+                    </div>
+                    <div id="expiry">
+                        <select required>
+                            <option value="Jan">Jan</option>
+                            <option value="Feb">Feb</option>
+                            <option value="Mar">Mar</option>
+                            <option value="Apr">Apr</option>
+                            <option value="May">May</option>
+                            <option value="Jun">Jun</option>
+                            <option value="Jul">Jul</option>
+                            <option value="Aug">Aug</option>
+                            <option value="Sep">Sep</option>
+                            <option value="Oct">Oct</option>
+                            <option value="Nov">Nov</option>
+                            <option value="Dec">Dec</option>
+                        </select>
+                        <select required>
+                            <option value="2020">2020</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                        </select>
+                    </div>
+                    <input type="submit" value="Checkout">
+                </form>
+            </div>
+        </section>
+        <section class="shipping container">
+            <h2>Shipping Policy</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quos voluptas maxime porro laudantium rem, vero eos aliquam quia esse ab expedita sunt voluptatem neque. Illo, adipisci? Minus, dolore amet. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta consequatur blanditiis itaque ex nihil minima? Maiores reprehenderit, minus autem provident iure, nam impedit illo eum, culpa magni eveniet aliquid veniam!</p>
+            <p>Suscipit vel, laboriosam aut et consequuntur excepturi libero repudiandae tenetur, minima odit cumque quos! Quis neque quidem ipsa libero vitae molestias? In? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil perferendis totam, quis inventore distinctio incidunt a molestias pariatur nesciunt, tempore id cumque illum similique suscipit, recusandae excepturi veniam at saepe!</p>
         </section> 
-        <section class="newsletter">
+        <section class="newsletter container">
             <form id="form">
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" placeholder="Please enter your email address to subscribe to our newsletter">
@@ -43,5 +100,8 @@
             </form>
         </section>
     </main> 
+    <footer>
+        <p>Grandeur @ 2020</p>
+    </footer>
 </body>
 </html>
