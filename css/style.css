@@ -88,8 +88,9 @@ main{
 }
 
 #company-description{
-    padding: 0 10px;
+    padding: 0 1em;
     width: 60%;
+    margin: auto;
 }
 
 #company-description h2{
@@ -134,8 +135,19 @@ main{
     text-align: center;
 }
 
+/*Purchase Section*/
 
+.purchase{
+    padding: 0.75em 0;
+    display: flex;
+    align-items: center;
+}
 
+.purchase-form{
+    width: 60%;
+    margin: auto;
+    padding: 0 1em;
+}
 /*Media Queries*/
 
 @media (max-width: 670px) {
