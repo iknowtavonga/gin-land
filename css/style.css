@@ -205,6 +205,13 @@ main{
     padding: 10px 10px;
     background-color: #ffffff;
 }
+
+/*Shipping Policy*/
+
+.shipping{
+    margin: 10px auto;
+}
+
 /*Media Queries*/
 
 @media (max-width: 670px) {
