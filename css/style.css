@@ -10,7 +10,7 @@ body *{
 }
 
 .container{
-    width: 80%;
+    width: 70%;
     margin: auto;
     overflow: hidden;
 }
@@ -82,6 +82,7 @@ main{
 .company-details{
     margin-top: 100px;
     display: flex;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: space-evenly;
     
@@ -142,7 +143,55 @@ main{
 .purchase-form{
     width: 60%;
     margin: auto;
-    padding: 0 1em;
+    padding: 0 3em;
+}
+
+.purchase-form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.large-form-input::placeholder{
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+.large-form-input{
+    -webkit-appearance: none;
+    background-color: #f9f9f9;
+    border: 0.1px solid #dddddd;
+    width: 75%;
+    margin: 5px 0;
+    padding: 10px 10px;
+}
+
+.small-form-input::placeholder{
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+.small-form-input{
+    width: 25%;
+    margin: 5px 0;
+    padding: 10px 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #dddddd;
+}
+
+.form-label{
+    margin: 10px 0;
+}
+
+.submit-button{
+    text-transform: uppercase;
+    font-family: 'Black Ops One', cursive;
+    color: rgb(181, 134, 54);
+    outline: none;
+    border: 1px solid rgb(181, 134, 54);
+    width: 25%;
+    margin: 5px 0;
+    padding: 10px 10px;
+    background-color: #ffffff;
 }
 /*Media Queries*/
 

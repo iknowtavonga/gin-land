@@ -53,14 +53,14 @@
             </div>
             <div class="purchase-form">
                 <form action="#">
-                    <input class="form-input" type="text" id="customer-name" name="customer-name" placeholder="Enter credit card holder name" required>
-                    <input class="form-input" type="number" id="card-number" name="card-number" placeholder="Enter credit card number" required>
-                    <input class="form-input" type="number" id="cvv" name="cvv" maxlength="3" placeholder="CVV" required>
-                    <div>
-                        <label class="form-label" for="expiry">Enter card expiry date:</label>
+                    <input class="large-form-input" type="text" id="customer-name" name="customer-name" placeholder="Enter credit card holder name" required>
+                    <input class="large-form-input" type="number" id="card-number" name="card-number" placeholder="Enter credit card number" required>
+                    <input class="small-form-input" type="number" id="cvv" name="cvv" maxlength="3" placeholder="CVV" required>
+                    <div class="form-label">
+                        <label  for="expiry">Enter card expiry date:</label>
                     </div>
                     <div id="expiry">
-                        <select required>
+                        <select class="small-form-input" required>
                             <option value="Jan">Jan</option>
                             <option value="Feb">Feb</option>
                             <option value="Mar">Mar</option>
@@ -74,7 +74,7 @@
                             <option value="Nov">Nov</option>
                             <option value="Dec">Dec</option>
                         </select>
-                        <select required>
+                        <select class="small-form-input" required>
                             <option value="2020">2020</option>
                             <option value="2021">2021</option>
                             <option value="2022">2022</option>
@@ -82,8 +82,12 @@
                             <option value="2024">2024</option>
                             <option value="2025">2025</option>
                         </select>
+                        <div class="form-label">
+                            <label class="form-label" for="quantity">Quantity</label>
+                        </div>
+                        <input class="small-form-input" type="number" id="quantity" name="quantity" placeholder="2">
                     </div>
-                    <input type="submit" value="Checkout">
+                    <input class="submit-button" type="submit" value="Checkout">
                 </form>
             </div>
         </section>
