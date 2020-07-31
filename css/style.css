@@ -226,11 +226,40 @@ main{
 
 footer{
     display: flex;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: space-between;
     border-top: 2px solid rgb(181, 134, 54);
-    padding: 5px 0;
+    padding: 5px 10px;
 }
+
+#email{
+    width: 300px;
+    outline: none;
+    padding: 0 5px;
+}
+
+#form{
+    width: 500px;
+    margin: 0 auto;
+}
+
+#footer p{
+    margin-top: 10px;
+}
+
+#form button{
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Black Ops One', cursive;
+    color: rgb(181, 134, 54);
+    outline: none;
+    border: 1px solid rgb(181, 134, 54);
+    width: 90px;
+    padding: 7px 0;
+    background-color: #ffffff;
+}
+
 
 /*Media Queries*/
 
