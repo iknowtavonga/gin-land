@@ -212,6 +212,15 @@ main{
     margin: 10px auto;
 }
 
+.shipping h2{
+    font-family: 'Black Ops One', cursive;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.shipping p{
+    line-height: 1.8;
+}
 /*Media Queries*/
 
 @media (max-width: 670px) {
